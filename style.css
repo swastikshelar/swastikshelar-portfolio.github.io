@@ -1041,3 +1041,12 @@ width: 100%;
 .navbarr{
   width: 100%;
 }
+
+@media screen and (max-width:450px ){
+  .ul li{
+    display: none;
+  }
+  .ham{
+    display: inherit;
+  }
+}
